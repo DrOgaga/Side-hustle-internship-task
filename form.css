@@ -1,0 +1,148 @@
+* { margin: 0;
+padding: 0;
+}
+
+.mainbg { 
+background-image: url(bamboo.jpg);
+background-size: cover;
+background-position: center center;
+height: 100vh;
+display: flex;
+}
+
+.odin {
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  }
+
+
+img {
+  width: 75px;
+  height: 80px;
+  }
+  
+  
+  .formbg {
+  background-color: rgb(237, 231, 231);
+  width: 60%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  }
+  
+  @font-face {
+  font-family: norsebold;
+  src: url(Norse-Bold.otf);
+  }
+
+  @font-face {
+    font-family: robotolight;
+  src: url(Roboto-Light.ttf);
+  }
+  
+  .text {font-size: 75px;
+  font-family: norsebold;
+  padding-top: 10px;}
+    
+  .pad {
+  width: 40%;
+  padding-top: 125px; 
+  }
+
+  .form {
+    font-family: robotolight;
+    background-color: rgb(250, 245, 245);
+    width: 100%;
+    height: 170px;
+    align-self: center;
+    box-shadow: 0 1px 5.5px -1px grey ;
+    padding: 20px;
+  }
+
+  .let {font-family: robotolight;
+    font-size: 20px;}
+
+  .formbox {
+    padding: 1px;
+  /* border: 3px solid black; */
+  height: 110%;
+  font-size: 11px;
+  position: relative;
+  pointer-events: all;
+  }
+
+  .fname {
+    position: absolute;
+    top: 2px;
+    z-index: 99999;
+  } 
+
+  .lname {
+  padding-left: 280px;
+  position: absolute;
+  top: 2px;
+  }
+
+  .email {
+    position: absolute;
+    top: 50px;
+    z-index: 99999;
+  }
+
+  .phone {
+      position: absolute;
+      top: 50px;
+      padding-left: 280px;
+  }
+
+  .password {
+    position: absolute;
+      bottom: 55px;
+      z-index: 9999;
+  }
+
+  .cmdpass {
+    position: absolute;
+    bottom: 55px; 
+    padding-left: 280px;
+    z-index: 10;
+  }
+
+  #account {
+    position: absolute;
+    bottom: 3px;
+    background-color: #292f2b;
+    color: #ebdaac;
+    padding: 7px 30px;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+
+  .footer {
+    padding-left: 20px;
+    position: absolute;
+    bottom: 140px;
+  }
+
+  .login {
+    font-family: robotolight;
+    text-decoration: none;
+    color: #292f2b;
+    font-weight: bold;
+  }
+
+  .uppertext {
+  height: 100px; 
+  width: 600px;
+  position: absolute;
+  left: 20px;
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 18px;
+
+  }
