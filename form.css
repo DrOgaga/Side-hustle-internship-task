@@ -77,37 +77,37 @@ img {
 
   .fname {
     position: absolute;
-    top: 2px;
+    top: 0px;
     z-index: 99999;
   } 
 
   .lname {
   padding-left: 280px;
   position: absolute;
-  top: 2px;
+  top: 0px;
   }
 
   .email {
     position: absolute;
-    top: 50px;
+    top: 47px;
     z-index: 99999;
   }
 
   .phone {
       position: absolute;
-      top: 50px;
+      top: 47px;
       padding-left: 280px;
   }
 
   .password {
     position: absolute;
-      bottom: 55px;
+      bottom: 58px;
       z-index: 9999;
   }
 
   .cmdpass {
     position: absolute;
-    bottom: 55px; 
+    bottom: 58px; 
     padding-left: 280px;
     z-index: 10;
   }
@@ -144,5 +144,18 @@ img {
   padding-top: 100px;
   font-weight: bold;
   font-size: 18px;
+  }
+
+  span {
+    position: absolute;
+    bottom: 45px;
+  }
+
+  .newform input {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
 
   }
+  .newform input:focus {border: 1px solid rgb(36, 36, 230)}
